@@ -2,11 +2,11 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className=' w-[100%] m-auto flex flex-col  items-center mt-6 top-0 bottom-0 absolute'>
+    <div className=' w-[100%] m-auto flex flex-col ms:mt-10 items-center mt-6 top-0 bottom-0 absolute'>
    
     <div className='w-[70%] m-auto '>
     <div className='flex justify-center'>
-        <img src='assets/circle_image/ethereum-01.png' className='w-[5%]'/>
+        <img src='assets/circle_image/ethereum-01.png' className='  xs:mt-10 xs:w-[10%] lg:w-[5%]'/>
     </div>
    
     <div className='flex w-100 justify-between items-center'>
@@ -15,8 +15,8 @@ const HeroSection = () => {
     </div>
       <div className='w'>
        
-      <h3 className='text-white text-[75px]  font-bold text-center'>Buy & Sell Nerko's Collection</h3>
-      <p className=' text-2xl  text-center text-white'>Invest and manage all your NFTs at one place.</p>
+      <h3 className='text-white mt-10 text-2xl  text-[40px] lg:text-[75px] font-bold text-center'>Buy & Sell Nerko's Collection</h3>
+      <p className=' lg:text-2xl  text-center xs:text-base xs:text-[14px] xs:mt-4 xs:font-semibold  text-white'>Invest and manage all your NFTs at one place.</p>
       </div>
       <div>
       <img src='assets/circle_image/x.png' className='w-[70%]'/>
