@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Component/Header";
+import HeroSection from "./Component/HeroSection";
+import ImageSection from "./Component/imageSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col">
+    <section className=" h-[700px] bg-[url(../public/assets/collection-grid.png)] bg-no-repeat relative bg-center   bg-cover py-10 opacity-30 ">
+   
+    </section>
+    <Header/>
+    <HeroSection/>
+    <ImageSection/>
     </div>
   );
 }
