@@ -13,10 +13,10 @@ const HeroSection = () => {
     <div>
     <img src='assets/circle_image/circle-01.png'className='w-[70%]'/>
     </div>
-      <div className='w'>
+      <div className='py-10'>
        
-      <h3 className='text-white mt-10 text-2xl  text-[40px] lg:text-[75px] font-bold text-center'>Buy & Sell Nerko's Collection</h3>
-      <p className=' lg:text-2xl  text-center xs:text-base xs:text-[14px] xs:mt-4 xs:font-semibold  text-white'>Invest and manage all your NFTs at one place.</p>
+      <h3 className='text-white mt-10 text-2xl  text-[45px] leading-none text-center font-bold lg:text-[75px] lg:leading-none lg:font-bold lg:text-center'>Buy & Sell Nerko's Collection</h3>
+      <p className=' lg:text-2xl lg:mt-8  text-center xs:text-base xs:text-[14px] xs:mt-4 xs:font-semibold  text-white'>Invest and manage all your NFTs at one place.</p>
       </div>
       <div>
       <img src='assets/circle_image/x.png' className='w-[70%]'/>

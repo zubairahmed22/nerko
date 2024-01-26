@@ -1,8 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 const Header = () => {
+  const [navbar, setNavbar] = useState(false)
+
+const ChangeBackground = () => {
+  if(window.scrollY >= 70 ){
+    setNavbar(true)
+  }else{
+    setNavbar(false)
+  }
+}
+window.addEventListener("scroll",ChangeBackground)
+
   return (
-    <div className='flex w-[85%]  items-center z-50 mt-8  top-0  fixed left-0 right-0  justify-between m-auto'>
+    <div className={navbar ? "w-full flex z-50  fixed left-0 right-0 items-center h-[70px] bg-gray-950": "w-full flex z-50  fixed left-0 right-0 items-center h-[70px]"}>
+    <div className='flex w-[85%]  items-center z-50   top-0  justify-between m-auto'>
         <div>
             <img src='assets/secondary_logo.svg'/>
         </div> 
@@ -16,6 +28,7 @@ const Header = () => {
             </ul>
         </div>
        <img src='assets/circle_image/menu1.png' className='block w-[20px]  lg:hidden'/>
+    </div>
     </div>
   )
 }
