@@ -5,6 +5,10 @@ import ChooseUs from "./Component/Chooseus";
 import Platform from "./Component/platform";
 import MultipleChain from "./Component/multipleChain";
 import Crew from "./Component/crew";
+import FaqSection from "./Component/Faqs";
+import Discovery from "./Component/discovery";
+import Footer from "./Component/footer";
+
 function App() {
   return (
     <div className="flex flex-col">
@@ -18,6 +22,9 @@ function App() {
     <Platform/>
     <MultipleChain/>
     <Crew/>
+    <FaqSection/>
+    <Discovery/>
+    <Footer/>
     
 
     </div>
