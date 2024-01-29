@@ -10,12 +10,12 @@ const FaqSection = () => {
     }
   return (
   <div>
-     <div className='flex justify-center py-10 mt-20 '>
+     <div className='flex justify-center  sm:mx-10 py-10 mt-20 '>
     <img src='assets/images/divider-01.svg' className='lg:w-[6%] w-[20%]'/>
     </div>
     <div className='text-white text-[55px] font-bold flex justify-center mt-20'>Asked Questions</div>
   
-    <div className="w-[60%] m-auto bg-[#1b1229] mt-20 rounded-2xl px-10 py-6">
+    <div className="lg:w-[60%]  xs:w-[95%] sm:w-[90%]    m-auto bg-[#1b1229] mt-20 rounded-2xl px-10 py-6">
         <div className="section-header section-header--middle">
             <div className="section-header__content">
                 

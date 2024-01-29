@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div className='flex justify-center mt-10'>
         <button className='bg-gradient-to-r from-[#2600fc] to-[#ff00ea]   px-12 py-5 rounded-full font-bold  text-white'>Browse Collection</button>
       </div>
-      <div className='flex  w-[60%] gap-40 justify-between items-center m-auto '>
+      <div className='flex xs:mt-4 sm:mt-4   w-[60%] gap-40 justify-between items-center m-auto '>
         <div className='w-[20%]'>
         <img src='assets/circle_image/bitcoin-01.png' className='w-[50px]'/>
         </div>
